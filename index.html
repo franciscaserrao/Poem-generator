@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,7 +19,7 @@
         <h1>Christmas Poem Generator</h1>
       </header>
       <main>
-        <form action="">
+        <form id="form">
           <input
             type="text"
             placeholder="Enter the topic of the Christmas poem"
@@ -29,15 +30,7 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem">
-          Jesus is the reason for the season,
-          <br />
-          So think of him in all that you do.
-          <br />
-          The good you do to others this season,
-          <br />
-          Should be carried out all year too.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by
