@@ -63,8 +63,18 @@ form {
   margin: 10px auto;
 }
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 1.15s step-start 0.8s infinite;
+}
+
 footer {
   text-align: center;
   font-size: 12px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
